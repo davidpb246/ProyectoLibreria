@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.10)  14 APR 2014 00:30
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.27)  14 APR 2014 00:27
+>>>>>>> 246c36cf01df23546cfea719999a7cecc0df3a0d
 entering extended mode
  %&-line parsing enabled.
 **propuesta.tex
@@ -1068,6 +1072,7 @@ File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
 [2] (./propuesta.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  16701 strings out of 495061
  331599 string characters out of 1182621
  417585 words of memory out of 3000000
@@ -1080,6 +1085,20 @@ usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-t
 exlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
 Output written on propuesta.pdf (2 pages, 127301 bytes).
+=======
+ 19418 strings out of 495028
+ 413508 string characters out of 6181497
+ 480293 words of memory out of 5000000
+ 22171 multiletter control sequences out of 15000+600000
+ 32057 words of font info for 34 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 55i,15n,75p,517b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on propuesta.pdf (2 pages, 121364 bytes).
+>>>>>>> 246c36cf01df23546cfea719999a7cecc0df3a0d
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
