@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  14 APR 2014 00:55
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.10)  14 APR 2014 00:46
-=======
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  14 APR 2014 00:46
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
->>>>>>> 1943cb1b139fbcfc3ee76d3332fd808628638146
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  14 APR 2014 01:09
 entering extended mode
  %&-line parsing enabled.
 **propuesta.tex
@@ -1087,60 +1079,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--83
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 85.
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
-
- []
-
-
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 89--91
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-<<<<<<< HEAD
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 97.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 103.
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-=======
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 102.
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
@@ -1148,11 +1114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-<<<<<<< HEAD
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 106.
-=======
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 110.
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 111.
 
 <eie-text-gray-6x3cm.png, id=22, 149.5989pt x 85.2786pt>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
@@ -1167,58 +1129,46 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logoucr.png> <./eie-text-gray-6x3cm.png (PNG copy)>]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 122--127
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 137--142
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+Underfull \hbox (badness 10000) in paragraph at lines 144--148
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 155.
+LaTeX Font Info:    Try loading font information for U+msa on input line 154.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 155.
+LaTeX Font Info:    Try loading font information for U+msb on input line 154.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \hbox (179.736pt too wide) in paragraph at lines 155--173
- [] 
+Overfull \hbox (301.05559pt too wide) in paragraph at lines 154--174
+[][] 
  []
 
 File: logoucr.png Graphic file (type png)
@@ -1226,12 +1176,8 @@ File: logoucr.png Graphic file (type png)
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png> [2]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-<<<<<<< HEAD
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
-=======
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 179.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 180.
 
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 AED: lastpage setting LastPage
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
@@ -1239,46 +1185,18 @@ File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
 [3] (./propuesta.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 17164 strings out of 495061
- 339346 string characters out of 1182621
+ 17151 strings out of 495061
+ 339233 string characters out of 1182621
  428259 words of memory out of 3000000
- 19864 multiletter control sequences out of 15000+50000
- 36494 words of font info for 51 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 56i,16n,65p,536b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
-<<<<<<< HEAD
- 16702 strings out of 495061
- 331613 string characters out of 1182621
- 417585 words of memory out of 3000000
- 19469 multiletter control sequences out of 15000+50000
- 32057 words of font info for 34 fonts, out of 3000000 for 9000
- 29 hyphenation exceptions out of 8191
- 56i,15n,65p,536b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
- 17150 strings out of 495061
- 339219 string characters out of 1182621
- 428258 words of memory out of 3000000
  19857 multiletter control sequences out of 15000+50000
  34446 words of font info for 44 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
+ 29 hyphenation exceptions out of 8191
  56i,16n,65p,536b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
->>>>>>> 1943cb1b139fbcfc3ee76d3332fd808628638146
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</
 usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-t
 exlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
-<<<<<<< HEAD
-Output written on propuesta.pdf (3 pages, 129547 bytes).
-=======
-<<<<<<< HEAD
-Output written on propuesta.pdf (2 pages, 127310 bytes).
-=======
-Output written on propuesta.pdf (3 pages, 129583 bytes).
->>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
->>>>>>> 1943cb1b139fbcfc3ee76d3332fd808628638146
+Output written on propuesta.pdf (3 pages, 129479 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
