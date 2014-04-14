@@ -14,12 +14,18 @@
 \usepackage{fancyhdr}
 \usepackage{url}
 \usepackage{listings}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{tikz}
 \usepackage{pgf}
 \usepackage{pgffor}
 \usepgfmodule{plot}
 \usepackage{wrapfig}
+\usepackage{ifpdf}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{epstopdf}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{tikz}
 \usetikzlibrary{arrows,decorations,snakes,backgrounds,fit,calc,through,scopes,positioning,automata,chains,er,fadings,calendar,matrix,mindmap,folding,patterns,petri,plothandlers,plotmarks,shadows,shapes,shapes.arrows,topaths,trees}
 
 \lstset{% general command to set parameter(s)
@@ -96,6 +102,16 @@ de cualquier objeto real, de manera virtual; esta técnica de pasar de un objeto
 
 \subsection{Objetivo General}
 
+
+El objetivo general consiste en la creación de una librería en C++ para la manipulación de objetos tridimensionales.\\
+
+\subsection{Objetivos Específicos}
+Los objetivos específicos son:\\
+
+Elaborar una librería para el lenguaje C++, que permita la manipulación y el análisis de objetos en tres dimensiones.\\
+
+\subsection{Objetivos Específicos}
+=======
 El objetivo general consiste en la creación de una librería en C++ para la manipulación de objetos tridimensionales.\\
 
 \subsection{Objetivos Específicos}
@@ -133,6 +149,31 @@ existentes sobre objetos tridimensionales.\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Cronograma}
+
+\begin{table}
+\begin{tabular}{l l l}
+\toprule
+\textbf{Semana} & \textbf{Fechas} & \textbf{objetivo a realizar}\\
+\midrule
+1 & 13 abril a 19 abril & entrega de la propuesta, instalación del
+software para uso del kinect, estudio del software para uso del kinect,
+estudio del lenguaje c+ \\
+2 & 20 abril a 26 abril & desarrollo, en lenguaje c++, de la función
+comparar e imprimir \\
+3 & 27 abril a 3 mayo & desarrollo, en lenguaje c++, de la funcion
+cortar y hacer simetria \\
+4 & 4 mayo a 10 mayo & pruebas de las 4 funciones utilizando datos
+provenientes del kinect \\
+5 & 11 mayo a 15 mayo & realización de la presentacion e informe
+escrito del proyecto \\
+\bottomrule
+\end{tabular}
+\caption{Cronograma}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Referencias}
 
 \begin{enumerate}

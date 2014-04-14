@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.10)  14 APR 2014 00:46
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  14 APR 2014 00:46
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 entering extended mode
  %&-line parsing enabled.
 **propuesta.tex
@@ -702,25 +706,109 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 \WF@everypar=\toks36
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/share/texmf-texlive/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count134
+\@cmidlb=\count135
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count136
+\@lastruleclass=\count137
+\@thisrulewidth=\dimen186
+)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
 s.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen174
+\arrowsize=\dimen187
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen175
-\pgfdecoratedremainingdistance=\dimen176
-\pgfdecoratedinputsegmentcompleteddistance=\dimen177
-\pgfdecoratedinputsegmentremainingdistance=\dimen178
-\pgf@decorate@distancetomove=\dimen179
-\pgf@decorate@repeatstate=\count134
-\pgfdecorationsegmentamplitude=\dimen180
-\pgfdecorationsegmentlength=\dimen181
+\pgfdecoratedcompleteddistance=\dimen188
+\pgfdecoratedremainingdistance=\dimen189
+\pgfdecoratedinputsegmentcompleteddistance=\dimen190
+\pgfdecoratedinputsegmentremainingdistance=\dimen191
+\pgf@decorate@distancetomove=\dimen192
+\pgf@decorate@repeatstate=\count138
+\pgfdecorationsegmentamplitude=\dimen193
+\pgfdecorationsegmentlength=\dimen194
 )
 \tikz@lib@dec@box=\box40
 )
@@ -832,7 +920,7 @@ File: tikzlibrarycalendar.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
  (/usr/share/texmf/tex/latex/pgf/utilities/pgfcalendar.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2007/07/23 v2.10 (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count135
+\pgfcalendarcurrentjulian=\count139
 )))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatri
 x.code.tex
@@ -849,7 +937,7 @@ File: tikzlibrarytrees.code.tex 2008/02/24 v2.10 (rcs-revision 1.2)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfoldi
 ng.code.tex
 File: tikzlibraryfolding.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
-\tikz@lib@fold@length=\dimen182
+\tikz@lib@fold@length=\dimen195
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatte
 rns.code.tex
@@ -911,19 +999,19 @@ s.callouts.code.tex
 de.tex))) (./propuesta.aux)
 \openout1 = `propuesta.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 69.
  (/usr/share/texmf-texlive/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -970,59 +1058,85 @@ driver: pdftex
 -----------------------
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen183
+\scratchcounter=\count140
+\scratchdimen=\dimen196
 \scratchbox=\box63
-\nofMPsegments=\count137
-\nofMParguments=\count138
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen184
-\MPnumerator=\count140
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen197
+\MPnumerator=\count144
 \everyMPtoPDFconversion=\toks38
 )
-\c@lstlisting=\count141
+\c@lstlisting=\count145
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 79.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 85.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 89--91
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+<<<<<<< HEAD
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 97.
 
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
+=======
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 102.
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
@@ -1030,7 +1144,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+<<<<<<< HEAD
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 106.
+=======
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 110.
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
 <eie-text-gray-6x3cm.png, id=22, 149.5989pt x 85.2786pt>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
@@ -1045,29 +1163,79 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logoucr.png> <./eie-text-gray-6x3cm.png (PNG copy)>]
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 118--121
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
+
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 122--127
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 137--142
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 128--132
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 
  []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 155.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 155.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (251.31638pt too wide) in paragraph at lines 155--172
+[][] 
+ []
+
+File: logoucr.png Graphic file (type png)
+<use logoucr.png>
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png> [2]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+<<<<<<< HEAD
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
+=======
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 179.
+
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 AED: lastpage setting LastPage
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-[2] (./propuesta.aux) ) 
+[3] (./propuesta.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  16702 strings out of 495061
  331613 string characters out of 1182621
  417585 words of memory out of 3000000
@@ -1075,13 +1243,26 @@ Here is how much of TeX's memory you used:
  32057 words of font info for 34 fonts, out of 3000000 for 9000
  29 hyphenation exceptions out of 8191
  56i,15n,65p,536b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+ 17150 strings out of 495061
+ 339219 string characters out of 1182621
+ 428258 words of memory out of 3000000
+ 19857 multiletter control sequences out of 15000+50000
+ 34446 words of font info for 44 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 56i,16n,65p,536b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</
 usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-t
 exlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
+<<<<<<< HEAD
 Output written on propuesta.pdf (2 pages, 127310 bytes).
+=======
+Output written on propuesta.pdf (3 pages, 129583 bytes).
+>>>>>>> 9bf8823ee6b6379fa970f148ca1d13a7b9eb27b1
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
