@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  13 APR 2014 22:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  14 APR 2014 00:02
 entering extended mode
  %&-line parsing enabled.
 **propuesta.tex
@@ -983,6 +983,8 @@ driver: pdftex
 )
 \c@lstlisting=\count141
  ABD: EveryShipout initializing macros
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
 
@@ -995,7 +997,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 86.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -1005,7 +1007,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -1013,7 +1015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 107.
 
 <eie-text-gray-6x3cm.png, id=22, 149.5989pt x 85.2786pt>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
@@ -1028,27 +1030,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./logoucr.png> <./eie-text-gray-6x3cm.png (PNG copy)>]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 119.
- AED: lastpage setting LastPage
-File: logoucr.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
-<use logoucr.png>
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 127.
+AED: lastpage setting LastPage
+File: logoucr.png Graphic file (type png)
+ <use logoucr.png>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png> [2] (./propuesta.aux) ) 
+ <use eie-text-gray-6x3cm.png>
+[2] (./propuesta.aux) ) 
 Here is how much of TeX's memory you used:
  16701 strings out of 495061
- 331602 string characters out of 1182621
- 417587 words of memory out of 3000000
+ 331599 string characters out of 1182621
+ 416584 words of memory out of 3000000
  19469 multiletter control sequences out of 15000+50000
- 30481 words of font info for 33 fonts, out of 3000000 for 9000
+ 32057 words of font info for 34 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 56i,15n,65p,881b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive
-/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/urw/helvetic
-/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
-/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on propuesta.pdf (2 pages, 127322 bytes).
+ 56i,15n,65p,517b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</
+usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type
+1/urw/helvetic/uhvro8a.pfb>
+Output written on propuesta.pdf (2 pages, 127629 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
