@@ -84,21 +84,31 @@
 \text{Andrés Sánchez López - B26214}\\
 
 
+\begin{figure}[ht]
+\includegraphics[width=1\linewidth]{visual_hull_4.png}
+\end{figure}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introducción}
 \hyphenation{fun-cio-na-li-dad}
-La creación de librerías en lenguajes de programación ayuda a generar una interfaz bien definida para una cierta funcionalidad en específico, estas sirven para separar por módulos un programa, y así generar un código más claro y ordenado.\\
+La creación de librerías en lenguajes de programación ayuda a generar una interfaz bien definida para una cierta funcionalidad en específico, 
+estas sirven para separar por módulos un programa, y así generar un código más claro y ordenado.\\
 
-Una librería es un conjunto de funciones para desarrollar software, por lo general no son programas, pero si son utilizadas por los programas para poder funcionar de forma correcta; el desarrollo de librerías sirve como apoyo para los programadores a tener más facilidades de implementación 
+Una librería es un conjunto de funciones para desarrollar software, por lo general no son programas, pero si son utilizadas por los programas 
+para poder funcionar de forma correcta; el desarrollo de librerías sirve como apoyo para los programadores a tener más facilidades de implementación 
 en sus programas y a contar con más recursos para realizar sus proyectos.\\
 
 En este caso, queremos implementar una librería sobre manipulación y análisis de objetos tridimensionales
 en el lenguaje C++.\\
 
 La idea  de esta librería es crear métodos o funciones para la manipulación y representación 
-de cualquier objeto real, de manera virtual; esta técnica de pasar de un objeto real a representarlo de manera virtual, se utiliza mucho en videojuegos, efectos especiales, medicina, simuladores, entre otros.\\
+de cualquier objeto real, de manera virtual; esta técnica de pasar de un objeto real a representarlo de manera virtual, se utiliza mucho 
+en videojuegos, efectos especiales, medicina, simuladores, entre otros.\\
 
- Para nuestro caso utilizaremos para representar los objetos de manera virtual, la técnica de malla de triángulos en 3D, en dónde primero debemos representar por medio de una nube de puntos el objeto y luego formar los triangulos con cada uno de esos puntos; para ello utilizaremos el kinect, obteniendo así los datos y luego realizar los algoritmos necesarios para la ejecución de las funciones de comparación, simetría, impresión de vistas y cortes sobre los datos mismos, generando así la librería. 
+Para nuestro caso utilizaremos para representar los objetos de manera virtual, la técnica de malla de triángulos en 3D, en dónde primero debemos 
+representar por medio de una nube de puntos el objeto y luego formar los triangulos con cada uno de esos puntos; para ello utilizaremos el kinect, 
+obteniendo así los datos y luego realizar los algoritmos necesarios para la ejecución de las funciones de comparación de datos, generando así la librería. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Objetivos}
@@ -116,9 +126,6 @@ Los objetivos específicos son:\\
 \begin{enumerate}
 \item Ampliar el conocimiento del lenguaje C++ a través de la creación de una librería en este lenguaje. 
 \item Desarrollar una función de comparación entre las posiciones y las trayectorias de figuras tridimensionales en la librería.
-\item Ajustar una función de impresión de las coordenadas de posición de una figura tridimensional en código C++ en la librería. 
-\item Realizar una función de cortes en las coordenadas de posición de una figura tridimensional en la librería.
-\item Implementar una función que consiga un conjunto de coordenadas de posición que sean simétricas a otro conjunto de coordenadas dado.
 \item Obtener los datos para la revisión de las funciones de la librería utilizando un kinect.
 \end{enumerate}
 
@@ -133,8 +140,8 @@ Una vez hecho esto, se buscará implementar una librería en el lenguaje C++.\\
 Lo que se realizará primero, es una investigación sobre que funciones presentan las librerías encontradas en lenguaje C++ y estudiar el código de estas,
 esto con el fin de entender la utilización de los datos en estos códigos, todo esto, en caso de haber encontrado una librería en lenguaje C++ con relación a este tema.
 Para lograr esto, se leerá toda la bibliografía necesaria para poder entender de la mejor manera que es lo que se necesita exactamente. Una vez
-entendido algunas de las diferentes implementaciones ya existentes, se pretende crear una librería en lenguaje C++ con diferentes funciones, entre ellas,
-comparación e impresión de figuras tridimensionales, así como cortes y simetrías de la misma. \\
+entendido algunas de las diferentes implementaciones ya existentes, se pretende crear una librería en lenguaje C++ con funciones de comparación entre datos
+recibidos en diferentes momentos y así determinar mejorías o fallas. \\
 
 Será necesario también, la utilización de un
 kinect para obtener datos de diferentes figuras tridimensionales de tal modo que se pueda dar una revisión de la librería. Finalmente, se buscará ajustar tal librería,
@@ -144,6 +151,7 @@ existentes sobre objetos tridimensionales.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Cronograma}
+
 \begin{center}
 \begin{tabular}{l l   @{\hspace{1cm}}p{10cm}}
 \cline{3-3}
@@ -166,6 +174,10 @@ escrito del proyecto. \\
 \end{tabular}
 \end{center}
 
+\begin{figure}[ht]
+\includegraphics[width=1\linewidth]{10288526_791857134159417_2036565498_o.jpg}
+\caption{Diagrama de Gantt}
+\end{figure}
 
 
 \section{Referencias}
@@ -179,6 +191,7 @@ Nube de puntos (Point Cloud) con Kinect. Encontrado el 13 de abril del 2014 en: 
 \item OPENKINECT. Encontrado el 13 de abril del 2014 en: http://openkinect.org/wiki/Main\_Page
 
 \end{enumerate}
+
 	
 \end{document}
 
