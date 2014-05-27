@@ -22,8 +22,8 @@ using namespace Eigen; /*para q es esto*/
 
 
 int main(){
-	Vector3d a(1,2,3);
-	Vector3d b(0,1,2);
+	Vector3d a(9,6,2.3);
+	Vector3d b(4.5,0,78);
     //a.normalize();
     //b.normalize();
     double dotProduct = a.dot(b);
