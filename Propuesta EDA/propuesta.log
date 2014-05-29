@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  29 MAY 2014 13:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  29 MAY 2014 13:48
 entering extended mode
  %&-line parsing enabled.
 **propuesta.tex
@@ -1068,38 +1068,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--85
 
  []
 
-<visual_hull_4.png, id=20, 1601.2322pt x 575.14874pt>
-File: visual_hull_4.png Graphic file (type png)
- <use visual_hull_4.png>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
-<logoucr.png, id=22, 316.18124pt x 331.2375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+
+ []
+
+<logoucr.png, id=20, 316.18124pt x 331.2375pt>
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 129.
 
-<eie-text-gray-6x3cm.png, id=23, 149.5989pt x 85.2786pt>
+<eie-text-gray-6x3cm.png, id=22, 149.5989pt x 85.2786pt>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
 
 <use eie-text-gray-6x3cm.png>
@@ -1111,53 +1110,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./logoucr.png> <./eie-text-gray-6x3cm.png (PNG copy)> <./visual_hull_4.png>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 116.
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+ <./logoucr.png> <./eie-text-gray-6x3cm.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 157.
+LaTeX Font Info:    Try loading font information for U+msa on input line 141.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 157.
+LaTeX Font Info:    Try loading font information for U+msb on input line 141.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-File: logoucr.png Graphic file (type png)
- <use logoucr.png>
-File: eie-text-gray-6x3cm.png Graphic file (type png)
-
-<use eie-text-gray-6x3cm.png> [2]
-<10288526_791857134159417_2036565498_o.jpg, id=35, 1392.20125pt x 239.89626pt>
+<10288526_791857134159417_2036565498_o.jpg, id=30, 1392.20125pt x 239.89626pt>
 File: 10288526_791857134159417_2036565498_o.jpg Graphic file (type jpg)
 
 <use 10288526_791857134159417_2036565498_o.jpg>
-Overfull \hbox (25.22426pt too wide) in paragraph at lines 187--189
+Overfull \hbox (25.22426pt too wide) in paragraph at lines 171--173
 \T1/phv/m/n/9 (Point Cloud) con Kinect. En-con-trado el 13 de abril del 2014 en
 : http://escenografiaaumentada.wordpress.com/2012/05/15/148/ 
  []
@@ -1167,22 +1138,25 @@ File: logoucr.png Graphic file (type png)
  <use logoucr.png>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-[3 <./10288526_791857134159417_2036565498_o.jpg>] (./propuesta.aux) ) 
+[2 <./10288526_791857134159417_2036565498_o.jpg>] (./propuesta.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 16853 strings out of 495061
- 335625 string characters out of 1182621
- 422487 words of memory out of 3000000
- 19551 multiletter control sequences out of 15000+50000
+ 16848 strings out of 495061
+ 335521 string characters out of 1182621
+ 420487 words of memory out of 3000000
+ 19547 multiletter control sequences out of 15000+50000
  33478 words of font info for 49 fonts, out of 3000000 for 9000
  29 hyphenation exceptions out of 8191
- 56i,15n,65p,517b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/shar
-e/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/u
-hvr8a.pfb>
-Output written on propuesta.pdf (3 pages, 1254248 bytes).
+ 56i,15n,65p,517b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/ur
+w/helvetic/uhvr8a.pfb>
+Output written on propuesta.pdf (2 pages, 172298 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
