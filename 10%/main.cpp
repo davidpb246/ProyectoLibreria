@@ -17,17 +17,20 @@ void printArray(int lista_falsa[], int n){
     }
     cout << endl;}
     
-void comparar_velocidad(int lista_falsa[], int n, int lista_falsa1[], int k){
+int comparar_velocidad(int lista_falsa[], int n, int lista_falsa1[], int k){
 	float rizado;
     rizado = n*0.1;
     if (k<n-rizado){
-		cout<<"Hiciste el movimiento demasiado rapido, intentalo de nuevo\n";
+		//cout<<"Hiciste el movimiento demasiado rapido, intentalo de nuevo\n";
+		return 1;
 		}
 	else if (k>n+rizado){
-		cout<<"Hiciste el movimiento demasiado lento, intentalo de nuevo\n";
+		//cout<<"Hiciste el movimiento demasiado lento, intentalo de nuevo\n";
+		return 1;
 		}
     else {
-		cout<<"Hiciste el movimiento a la velocidad adecuada, !Muy bien!\n";
+		//cout<<"Hiciste el movimiento a la velocidad adecuada, !Muy bien!\n";
+		return 0;
 		}
 	
 	}
@@ -61,12 +64,12 @@ int main(int argc, char** argv) {
     printArray(lista_falsa1, k);
     printArray(lista_falsa2, m);
     
-    cout<<"El analisis de velocidad es: \n";
-    comparar_velocidad(lista_falsa, n, lista_falsa1, k);//lento
-    cout<<"El analisis de velocidad es: \n";
-    comparar_velocidad(lista_falsa, n, lista_falsa2, m);//rapido
-    cout<<"El analisis de velocidad es: \n";
-    comparar_velocidad(lista_falsa, n, lista_falsa3, a);//perfecto
+    cout<<"El analisis de velocidad es: "<< comparar_velocidad(lista_falsa, n, lista_falsa1, k)<<"\n";
+    //comparar_velocidad(lista_falsa, n, lista_falsa1, k);//lento
+    cout<<"El analisis de velocidad es: "<< comparar_velocidad(lista_falsa, n, lista_falsa2, m)<<"\n";
+    //comparar_velocidad(lista_falsa, n, lista_falsa2, m);//rapido
+    cout<<"El analisis de velocidad es: "<<comparar_velocidad(lista_falsa, n, lista_falsa3, a)<<"\n";
+    //comparar_velocidad(lista_falsa, n, lista_falsa3, a);//perfecto
     
     return 0;
 }
