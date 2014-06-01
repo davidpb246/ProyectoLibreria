@@ -71,5 +71,16 @@ int main(int argc, char** argv) {
     cout<<"El analisis de velocidad es: "<<comparar_velocidad(lista_falsa, n, lista_falsa3, a)<<"\n";
     //comparar_velocidad(lista_falsa, n, lista_falsa3, a);//perfecto
     
+    int arreglo1 [20] = {1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9};
+	int * arreglo_prom = new int[10];
+	
+	for(int k = 0; k < 20; k++){
+		int sumatoria = 0;
+		for(int i = 0; i < 0.1*20; i++){
+			sumatoria = sumatoria + arreglo1[i];}
+		arreglo_prom[k] = sumatoria/2;}
+	printArray(arreglo_prom, 10);
+    
     return 0;
 }
+
