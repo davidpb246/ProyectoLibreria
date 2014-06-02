@@ -64,7 +64,8 @@ int comparar_velocidad(int lista_falsa[], int n, int lista_falsa1[], int k){
 int main(int argc, char** argv) {
     
     /* Vea aqui se supone que se recibe 2 arrays: el movimimiento perfecto(lista_falsa) y algún otro
-     * vea que ya tenemos q tener la longitud del vector que son esos int(n,k,m,a), entoncs di suponiendo que ya tenemos
+     * vea que ya tenemos q tener la longitud del vector que son esos int(n,k,m,a), el suyo no lo recibo aqí xq hay 
+     * que pegarlo aquí mismo, osea que aquí mismo se hace.. creo XD.. entoncs di suponiendo que ya tenemos
      * eso y que su parte funciona bien solo seria de pegar esta vara así como está, xq vea que ya hasta
      * lo tengo implementado en métodos, no hay mucho q hacer, lo q me preocupa es pegarlo a lo de David
      * xq ni idea cm hacerlo XD
