@@ -64,7 +64,7 @@ int comparar_velocidad(int lista_falsa[], int n, int lista_falsa1[], int k){
 int main(int argc, char** argv) {
     
     /* Vea aqui se supone que se recibe 2 arrays: el movimimiento perfecto(lista_falsa) y algún otro
-     * vea que ya tenemos q tener la longitud del vector que son esos int(n,k,m,a), el suyo no lo recibo aqí xq hay 
+     * vea que ya tenemos q tener la longitud del vector que son esos int(n,k,m,a), el suyo no lo recibo aquí xq hay 
      * que pegarlo aquí mismo, osea que aquí mismo se hace.. creo XD.. entoncs di suponiendo que ya tenemos
      * eso y que su parte funciona bien solo seria de pegar esta vara así como está, xq vea que ya hasta
      * lo tengo implementado en métodos, no hay mucho q hacer, lo q me preocupa es pegarlo a lo de David
@@ -78,8 +78,7 @@ int main(int argc, char** argv) {
     m=17;
     int * lista_falsa = new int[n];
     int * lista_falsa1 = new int[k];
-    int * lista_falsa2 = new int[m];
-    int * lista_falsa3 = new int[a];
+
     
     int promedio5[]={1,1,1,1,1,1,1,1,1,0};
     
@@ -87,23 +86,11 @@ int main(int argc, char** argv) {
     cout<<"El análisis del movimiento es: "<<"\n";
     comparar_angulos(promedio5);
     
-    for(int i=0;i<20;i++){
-		int dat=i;
-        lista_falsa[i]=dat;
-    }
-  
-    for(int x=0;x<23;x++){
-        lista_falsa1[x]=x;
-    }
-    
-    for(int p=0;p<17;p++){
-        lista_falsa2[p]=p;
-    }
+
     
     cout<<"El análisis de velocidad es: \n";
     comparar_velocidad(lista_falsa, n, lista_falsa1, k);
     //comparar_velocidad(lista_falsa, n, lista_falsa1, k);/
-
     
     
     return 0;
