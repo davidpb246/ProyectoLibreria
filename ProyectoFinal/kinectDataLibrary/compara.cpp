@@ -63,15 +63,15 @@ void compara::comparar_angulos(int* promedio) {
         contador += promedio[l];
     }
     if (contador >= 9) {
-        cout << "El movimiento fue excelente" << "\n";
+        cout << "Movimiento muy bueno" << "\n";
     } else if (contador >= 7) {
-        cout << "El movimiento fue bueno pero podrias mejorar" << "\n";
+        cout << "Movimiento bueno" << "\n";
     } else if (contador >= 5) {
-        cout << "El movimiento fue regular" << "\n";
+        cout << "Movimiento regular" << "\n";
     } else if (contador >= 3) {
-        cout << "El movimiento fue deficiente" << "\n";
+        cout << "Movimiento deficiente" << "\n";
     } else {
-        cout << "El movimiento fue muy deficiente" << "\n";
+        cout << "Movimiento muy deficiente" << "\n";
     }
 }
 
@@ -79,11 +79,11 @@ void compara::comparar_velocidad(int pSizeMov1, int pSizeMov2) {
     float rizado;
     rizado = pSizeMov1 * 0.1;
     if (pSizeMov2 < pSizeMov1 - rizado) {
-        cout << "Hiciste el movimiento demasiado rapido\n";
+        cout << "Movimiento demasiado rapido\n";
     } else if (pSizeMov2 > pSizeMov1 + rizado) {
-        cout << "Hiciste el movimiento demasiado lento\n";
+        cout << "Movimiento demasiado lento\n";
     } else {
-        cout << "Hiciste el movimiento a la velocidad adecuada, !Muy bien!\n";
+        cout << "Movimiento de velocidad aceptable\n";
     }
 }
 
