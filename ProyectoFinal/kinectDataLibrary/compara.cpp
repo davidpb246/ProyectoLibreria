@@ -8,10 +8,13 @@
 #include "compara.hh"
 
 compara::compara() {
-    conversion persona1("jointp1", "jointp2");
-    conversion persona2("joint1", "joint2");
+    conversion persona1("cuello", "panza","muneca", "hombro");
+    conversion persona2("cuello1", "panza1","muneca1", "hombro1");
     this->_ArregloMov1 = persona1.getArregloAngulos();
     this->_ArregloMov2 = persona2.getArregloAngulos();
+    for (int i = 0; i < 10; i++) {
+        cout << _ArregloMov1[i] << endl;
+    }
     double * arregloP1 = sacapromedios(_ArregloMov1);
     double * arregloP2 = sacapromedios(_ArregloMov2);
     _ArregloComparativo = arreglo_promedio(arregloP1, arregloP2);

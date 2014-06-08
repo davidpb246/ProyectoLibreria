@@ -26,8 +26,6 @@ private:
      double * _ArregloMov1;
      double  * _ArregloMov2;
      int * _ArregloComparativo;
-    
-
 };
 
 #endif	/* COMPARA_HH */

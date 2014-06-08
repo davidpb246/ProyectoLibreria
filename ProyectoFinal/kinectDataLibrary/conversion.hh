@@ -23,19 +23,23 @@ using namespace Eigen;
 
 class conversion {
 public:
-    conversion(string  ptxt1, string ptxt2);
+    conversion(string  ptxt1, string ptxt2, string ptxt3, string ptxt4);
     conversion(const conversion& orig);
     virtual ~conversion();
-    double convertir(string* pjoint1, string* pjoint2, int  n);
+    double convertir(string* pjoint1, string* pjoint2, string* pjoint3, string* pjoint4, int  n);
     string * split(string pDato);
     void llenarArregloAngulos();
     double * getArregloAngulos();
     int _TamanoMov1;
     int _TamanoMov2;
+    int _TamanoMov3;
+    int _TamanoMov4;
     
 private:
     archivos _Joint1_Txt;
     archivos _Joint2_Txt;
+    archivos _Joint3_Txt;
+    archivos _Joint4_Txt;
     double  * _Arreglo_angulos;
     
 };

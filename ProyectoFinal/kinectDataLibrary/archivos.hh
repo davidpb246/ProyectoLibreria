@@ -25,13 +25,6 @@ public:
     void guardarEnArreglo();
     void setCantLineas();
     string * getDatosArreglo();
-
-    /**
-  @brief Método que establece el nombre del archivo de texto que se quiere cargar.
-     * en este caso seran cada uno de los joints.
-  @param pDato, String que recibe el nombre del archivo a leer.
-  @returns Método sin retorno.
-     */
     void setDirArchivo(string pDato);
 
 private:
