@@ -1,9 +1,0 @@
-\beamer@endinputifotherversion {3.10pt}
-\select@language {english}
-\beamer@sectionintoc {1}{K-Da Library }{3}{0}{1}
-\beamer@sectionintoc {2}{Programming K-Da Library}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Class archivos}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Class conversion}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Class compara}{10}{0}{2}
-\beamer@subsectionintoc {2}{4}{main}{14}{0}{2}
-\beamer@sectionintoc {3}{Functions to implement}{15}{0}{3}
