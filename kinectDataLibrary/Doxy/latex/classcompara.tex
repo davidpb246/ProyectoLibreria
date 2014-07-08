@@ -1,0 +1,149 @@
+\section{compara Class Reference}
+\label{classcompara}\index{compara@{compara}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf compara} ()
+\begin{DoxyCompactList}\small\item\em Método constructor de la clase compara, y que lleva el hilo principal del programa. \end{DoxyCompactList}\item 
+{\bfseries compara} (const {\bf compara} \&orig)\label{classcompara_a5fba67ea99f0cdc005cb9292fba53a04}
+
+\item 
+double $\ast$ {\bf sacapromedios} (double $\ast$arreglo, int p\-Dato)
+\begin{DoxyCompactList}\small\item\em Método sacapromedios transformar cada 10\% de ángulos en una sóla información. Se forma un bloque cada 10\% y va depender de la cantidad de datos analizados. \end{DoxyCompactList}\item 
+int $\ast$ {\bf arreglo\-\_\-promedio} (double $\ast$arreglo\-\_\-prom1, double $\ast$arreglo\-\_\-prom2)
+\begin{DoxyCompactList}\small\item\em Método que compara los datos de los dos movimientos, y retorna un arreglo de 1 y 0; 1 para una parte del movimiento que fue bien realizada y 0 para una parte que no fue bien realizada. \end{DoxyCompactList}\item 
+int $\ast$ {\bf get\-Arreglo\-Comparativo} ()
+\begin{DoxyCompactList}\small\item\em Método que retorna el \-\_\-\-Arreglo\-Comparativo de los movimientos.. \end{DoxyCompactList}\item 
+void {\bf comparar\-\_\-angulos} (int $\ast$promedio)
+\begin{DoxyCompactList}\small\item\em Método que analiza el arreglo de 1 y 0. Nos dice la calidad del movimientos dependiendo de la cantidad de unos que va a obtener el arreglo comparativo. \end{DoxyCompactList}\item 
+void {\bf comparar\-\_\-velocidad} (int p\-Size\-Mov1, int p\-Size\-Mov2)
+\begin{DoxyCompactList}\small\item\em Método que compara la cantidad de datos del movimiento 1 con los del moviento 2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{compara@{compara}!compara@{compara}}
+\index{compara@{compara}!compara@{compara}}
+\subsubsection[{compara}]{\setlength{\rightskip}{0pt plus 5cm}compara\-::compara (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcompara_adc85793ce0b9897516891ed04eeda771}
+
+
+Método constructor de la clase compara, y que lleva el hilo principal del programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Método} & sin parámetros. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Método sin retorno. 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\index{compara@{compara}!arreglo\-\_\-promedio@{arreglo\-\_\-promedio}}
+\index{arreglo\-\_\-promedio@{arreglo\-\_\-promedio}!compara@{compara}}
+\subsubsection[{arreglo\-\_\-promedio}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ compara\-::arreglo\-\_\-promedio (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{arreglo\-\_\-prom1, }
+\item[{double $\ast$}]{arreglo\-\_\-prom2}
+\end{DoxyParamCaption}
+)}\label{classcompara_ab8da0a1aff98eff08346ec716665e1c0}
+
+
+Método que compara los datos de los dos movimientos, y retorna un arreglo de 1 y 0; 1 para una parte del movimiento que fue bien realizada y 0 para una parte que no fue bien realizada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em 2} & double $\ast$ arreglo\-\_\-prom -\/ Los dos arreglo\-\_\-prom de los movimientos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int$\ast$ -\/ Arreglo de 1 y 0 que representan la calidad del movimiento. 
+\end{DoxyReturn}
+\index{compara@{compara}!comparar\-\_\-angulos@{comparar\-\_\-angulos}}
+\index{comparar\-\_\-angulos@{comparar\-\_\-angulos}!compara@{compara}}
+\subsubsection[{comparar\-\_\-angulos}]{\setlength{\rightskip}{0pt plus 5cm}void compara\-::comparar\-\_\-angulos (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{promedio}
+\end{DoxyParamCaption}
+)}\label{classcompara_aeb8326b7bba8cb568b318d8345893383}
+
+
+Método que analiza el arreglo de 1 y 0. Nos dice la calidad del movimientos dependiendo de la cantidad de unos que va a obtener el arreglo comparativo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int$\ast$} & promedio -\/ Arreglo con los ángulos promedio. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Método sin retorno. 
+\end{DoxyReturn}
+\index{compara@{compara}!comparar\-\_\-velocidad@{comparar\-\_\-velocidad}}
+\index{comparar\-\_\-velocidad@{comparar\-\_\-velocidad}!compara@{compara}}
+\subsubsection[{comparar\-\_\-velocidad}]{\setlength{\rightskip}{0pt plus 5cm}void compara\-::comparar\-\_\-velocidad (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-Size\-Mov1, }
+\item[{int}]{p\-Size\-Mov2}
+\end{DoxyParamCaption}
+)}\label{classcompara_a4c837ec66353c2a7ec49ae130b92ccc5}
+
+
+Método que compara la cantidad de datos del movimiento 1 con los del moviento 2. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em 2} & int p\-Size\-Mov -\/ Tamaño del arreglo de cada uno de los movimientos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Método sin retorno. 
+\end{DoxyReturn}
+\index{compara@{compara}!get\-Arreglo\-Comparativo@{get\-Arreglo\-Comparativo}}
+\index{get\-Arreglo\-Comparativo@{get\-Arreglo\-Comparativo}!compara@{compara}}
+\subsubsection[{get\-Arreglo\-Comparativo}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ compara\-::get\-Arreglo\-Comparativo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcompara_ad9895f065c13a34c8a11417a5e949eb9}
+
+
+Método que retorna el \-\_\-\-Arreglo\-Comparativo de los movimientos.. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Método} & sin parámetros. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int$\ast$ -\/ Arreglo de 1 y 0. 
+\end{DoxyReturn}
+\index{compara@{compara}!sacapromedios@{sacapromedios}}
+\index{sacapromedios@{sacapromedios}!compara@{compara}}
+\subsubsection[{sacapromedios}]{\setlength{\rightskip}{0pt plus 5cm}double $\ast$ compara\-::sacapromedios (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{arreglo, }
+\item[{int}]{p\-Dato}
+\end{DoxyParamCaption}
+)}\label{classcompara_acd938a0c0668f0c5baeb8c58cd8cd79e}
+
+
+Método sacapromedios transformar cada 10\% de ángulos en una sóla información. Se forma un bloque cada 10\% y va depender de la cantidad de datos analizados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em double} & $\ast$ arreglo -\/ Recibe el arreglo de los ángulos. int p\-Dato -\/ Cantidad de datos del movimiento. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double $\ast$ -\/ Arreglo con cada uno de los bloques de la información. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/davidpb/\-Desktop/kinect\-Data\-Library/compara.\-hh\item 
+/home/davidpb/\-Desktop/kinect\-Data\-Library/compara.\-cpp\end{DoxyCompactItemize}
