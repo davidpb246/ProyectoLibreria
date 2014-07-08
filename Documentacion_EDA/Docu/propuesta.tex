@@ -115,7 +115,7 @@ Una segunda parte del proyecto, consiste en la implementación de algunas estruc
 
 En general, las estructuras de datos implementarán las funciones básicas de acceso o búsqueda de datos, lo cual nos ayudará a tener un manejo más rápido y ordenado de los datos obtenidos por el kinect.
 
- 
+ESTA INTRO HAY QUE CAMBIARLAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Desarrollo}
@@ -124,7 +124,7 @@ En general, las estructuras de datos implementarán las funciones básicas de ac
 
 Como se mencionó con anterioridad, la creación de librerías de programación corresponden a una funcionalidad en específico. En nuestro caso, la librería
 implementada corresponde a un conjunto de métodos computacionales para llevar a cabo la comparación de movimientos. Para lograr esto, se implementó 
-la librería en lenguaje C++, sin embargo, los datos de los movimientos son tomados de un controlador de juego libre y entretenimiento llamado Kinect; creado por Alex Kipman, desarrollado por Microsoft para la videoconsola Xbox 360.(http://personales.alumno.upv.es/alrafua/asignaturas/SES/Perifericos/Interfaces_humanas/camaras_reconocimiento.html)
+la librería en lenguaje C++, sin embargo, los datos de los movimientos son tomados de un controlador de juego libre y entretenimiento llamado Kinect; creado por Alex Kipman, desarrollado por Microsoft para la videoconsola Xbox 360.(http://personales.alumno.upv.es/alrafua/asignaturas/SES/Perifericos/Interfaces\_humanas/camaras\_reconocimiento.html)
 Además se usa también el lenguaje de programación Processing para poder obtener del Kinect los datos que se produzcan. Relacionadas estas tres importantes
 herramientas es que nuestra librería da el funcionamiento esperado. 
 
@@ -141,76 +141,31 @@ recibidos del Kinect y es aquí donde toma participación la última de las clas
 \subsubsection{Processing}
 
 El lenguaje de programación Processing es la herramienta que utilizamos para tomar los datos que el Kinect genere según el movimiento y convertir estos datos en archivos \textit{.txt} para luego estos, ser utilizados dentro del código en C++. En el código de Processing se pueden elegir 
-los movimientos de los que se quieren obtener los datos. Es decir, si necesitamos solo los datos de movimiento que genere el Kinect solo en el \textit{joint} de la muñeca y no de todos los \textit{joints} del diagrama en general se puede realizar el cambio dentro del código. En nuestro caso, 
+los movimientos de los que se quieren obtener los datos. Es decir, si necesitamos solo los datos de movimiento que genere el Kinect solo en el \textit{joint} de la muñeca y no de todos los \textit{joints} del diagrama del cuerpo humano en general se puede realizar el cambio dentro del código. En nuestro caso, 
 Processing reproduce los datos del movimiento de los \textit{joints} del torso, cuello, hombro y muñeca. 
 
+\subsubsection{Kinect}
 
-
-
-\subsection{Objetivos Específicos}
-
-Los objetivos específicos son:\\
-
-\begin{enumerate}
-\item Ampliar las funciones de la librería K-Da, de modo que se puedan hacer una mayor cantidad de comparaciones de movimientos.
-\item Investigar sobre algunas estructuras de datos que puedan mejorar el rendimiento o eficacia de la informacíón utilizada 
-en algoritmos de la librería K-Da.
-\item Implementar algunas de las estructuras de datos en la librería K-Da para determinar cuáles dan mejores resultados.
-\end{enumerate}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% YO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Este dispositivo cuenta con una cámara RGB, un sensor de profundidad, un micrófono de múltiples matrices y un procesador personalizado que ejecuta el software patentado, que proporciona captura de movimiento de todo el cuerpo en 3D, reconocimiento facial y capacidades de reconocimiento de voz. 
+Son las características anteriores lo que permite que esta última, pero no menos importante, herramienta es la que recolecta los datos del movimiento que se realicen. Utilizando algunos de sus componentes mencionados anteriormente, el Kinect es capaz de grabar los movimientos que realice un humano
+frente a él. Los datos que este produce corresponden a puntos de los \textit{joints} en tres dimensiones, largo, ancho y profundidad, o más en general, posiciones en \textit{x}, \textit{y} y \textit{z} de un plano que el mismo Kinect establece. Así bien, durante el movimiento ya sea en el \textit{joint} de la muñeca, hombro o algún otro (según esté especificado en el código Processing), 
+el Kinect generará un dato de tres dimensiones para tal \textit{joint} en un tiempo específico, de manera que conforme el movimiento continúa se generan más datos 3D, con diferente posición, y obviamente, en un tiempo diferente. 
 
 
 
 
-\section{Objetivos}
-
-\subsection{Objetivo General}
-
-
-El objetivo general consiste en analizar algunas de las diferentes estructuras de datos y su desempeño en términos de eficiencia en la librería K-Da
-realizada en el primer proyecto del curso.
-
-\subsection{Objetivos Específicos}
-
-Los objetivos específicos son:\\
-
-\begin{enumerate}
-\item Ampliar las funciones de la librería K-Da, de modo que se puedan hacer una mayor cantidad de comparaciones de movimientos.
-\item Investigar sobre algunas estructuras de datos que puedan mejorar el rendimiento o eficacia de la informacíón utilizada 
-en algoritmos de la librería K-Da.
-\item Implementar algunas de las estructuras de datos en la librería K-Da para determinar cuáles dan mejores resultados.
-\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Clases}
+\subsection{Clases}
 
 
 (Aquí va la explicación de los métodos de Sama y David)\\
 
-Seguidamente los métodos comparar\_angulos y comparar\_velocidad son los que finalmente evalúan que tan bueno estuvo el movimiento y se lo indica al usuario, esto lo hace utilizando como base los datos suministrados por las clases y métodos anteriores. Primeramente el método comparar\_angulos lo que hace es tomar el arreglo de unos y ceros proveniente de arreglo\_promedio y sumar todos los datos del arreglo, al ser este un arreglo de puros unos y ceros y de longitud 10, el valor de esta suma debería ser máximo 10 y mínimo cero, por lo tanto se puede hacer una evaluación de que tan bien estuvo el movimiento en base al valor de esta suma, si por ejemplo la suma dió uno, esto quiere decir que solo una decima parte del movimiento lo hizo casi igual o muy parecido al movimiento ``ideal'' por lo tanto el restante 90\% del movimiento lo hizo mal en comparación al movimiento ``ideal'', lo que haría que en general el movimiento haya sido muy malo (para este ejemplo). Si por otro lado la sumatoria dió un valor de 5 esto quiere decir que la mitad del movimiento estuvo bien hecho y la otra mitad no, y así sucesivamente hasta llegar a un valor de la sumatoria de 10, lo cuál significaría evidentemente que el movimiento fue excelente. Seguidamente el método comparar\_velocidad lo que hace es determinar que tan rápido el usuario hace el movimiento en comparación con el movimiento ``ideal'', esto ya que de nada serviría tener un 10 en comparar\_angulos si se hizo el movimiento muy lento, ya que efectivamente el movimiento sería igual pero no sería lo correcto decirle al usuario que estuvo bien su movimiento si dura mucho tiempo en ejecutarlo, este método toma la longitud del arreglo de ángulos de los 2 movimientos y los compara, si hay una diferencia de más de un 10\% se lo indica al usuario, diciendole que fue muy lento si se tuvo un 10\% más o que fue muy rápido si se tuvo un 10\% menos. \\
+Seguidamente los métodos comparar\_angulos y comparar\_velocidad son los que finalmente evalúan que tan bueno estuvo el movimiento y se lo indica al usuario, esto lo hace utilizando como base los datos suministrados por las clases y métodos anteriores. Primeramente el método comparar\_angulos lo que hace es tomar el arreglo de unos y ceros proveniente de arreglo\_promedio y sumar todos los datos del arreglo, al ser este un arreglo de puros unos y ceros y de longitud 10, el valor de esta suma debería ser máximo 10 y mínimo cero, por lo tanto se puede hacer una evaluación de que tan bien estuvo 
+el movimiento en base al valor de esta suma, si por ejemplo la suma dió uno, esto quiere decir que solo una decima parte del movimiento lo hizo casi igual o muy parecido al movimiento ``ideal'' por lo tanto el restante 90\% del movimiento lo hizo mal en comparación al movimiento ``ideal'', lo que haría que en general el movimiento haya sido muy malo (para este ejemplo). Si por otro lado la sumatoria dió un valor de 5 esto quiere decir que la mitad del movimiento estuvo bien hecho y la otra mitad no, y así sucesivamente hasta llegar a un valor de la sumatoria de 10, lo cuál significaría evidentemente que el movimiento fue excelente. Seguidamente el método comparar\_velocidad 
+lo que hace es determinar que tan rápido el usuario hace el movimiento en comparación con el movimiento ``ideal'', esto ya que de nada serviría tener un 10 en comparar\_angulos si se hizo el movimiento muy lento, ya que efectivamente el movimiento sería igual pero no sería lo correcto decirle al usuario que estuvo bien su movimiento si dura mucho tiempo en ejecutarlo, este método toma la longitud del arreglo de ángulos de los 2 movimientos y los compara, si hay una diferencia de más de un 10\% se lo indica al usuario, diciendole que fue muy lento si se tuvo un 10\% más o que fue muy rápido si se tuvo un 10\% menos. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\section{Cronograma}
-
-\begin{center}
-\begin{tabular}{l l   @{\hspace{1cm}}p{10cm}}
-\cline{3-3}
-
-\toprule
-\textbf{Semana} & \textbf{Fechas} & \textbf{Actividad} \\
-\midrule
-1 & 1 a 7 de junio & Estudio de las posibles estructuras de datos a utilizar en el proyecto. \\
-2 & 8 al 14 de junio & Implementación de las diferentes estructuras de datos escogidas. \\
-
-3 & 15 al 21 de junio & Análisis de eficiencia de las estructuras de datos escogidas. \\
-4 & 22 al 28 de junio & Determinación de la mejor estructura de datos y realización del informe.\\
-
-\bottomrule
-\end{tabular}
-\end{center}
 
 \section{Referencias}
 
