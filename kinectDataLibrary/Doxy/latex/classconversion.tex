@@ -1,0 +1,147 @@
+\section{conversion Class Reference}
+\label{classconversion}\index{conversion@{conversion}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf conversion} (string ptxt1, string ptxt2, string ptxt3, string ptxt4)
+\begin{DoxyCompactList}\small\item\em Método constructor de la clase conversion, en el cual se inicializan los valores de los atributos de clase, Dir\-\_\-\-Joints, Arreglo\-\_\-angulos, Tamano Mov. \end{DoxyCompactList}\item 
+{\bfseries conversion} (const {\bf conversion} \&orig)\label{classconversion_a69e0d1b5044f8290fa6dc59d7df145e4}
+
+\item 
+double {\bf convertir} (string $\ast$pjoint1, string $\ast$pjoint2, string $\ast$pjoint3, string $\ast$pjoint4, int n)
+\begin{DoxyCompactList}\small\item\em Método convertir, que realiza la conversión de todas las posiciones X\-Y\-Z a ángulos. \end{DoxyCompactList}\item 
+string $\ast$ {\bf split} (string p\-Dato)
+\begin{DoxyCompactList}\small\item\em Método encargado de separar cada una de las posiciones xyz del archivo de texto, separa cada vez que encuenta una coma. \end{DoxyCompactList}\item 
+void {\bf llenar\-Arreglo\-Angulos} ()
+\begin{DoxyCompactList}\small\item\em Método que llena un arreglo con los ángulos formados por las posiciones. \end{DoxyCompactList}\item 
+double $\ast$ {\bf get\-Arreglo\-Angulos} ()
+\begin{DoxyCompactList}\small\item\em Método que retorna el arreglo de ángulos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries \-\_\-\-Tamano\-Mov1}\label{classconversion_a3a2a8a55ceb096c4775537b90edb333d}
+
+\item 
+int {\bfseries \-\_\-\-Tamano\-Mov2}\label{classconversion_a6baadb7c960e6c65911d8814bc4cd670}
+
+\item 
+int {\bfseries \-\_\-\-Tamano\-Mov3}\label{classconversion_a4d56aa93d0fa3b006334bbed216ded6c}
+
+\item 
+int {\bfseries \-\_\-\-Tamano\-Mov4}\label{classconversion_a9c7ce2ab3facc8f402beb203f6a56a04}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{conversion@{conversion}!conversion@{conversion}}
+\index{conversion@{conversion}!conversion@{conversion}}
+\subsubsection[{conversion}]{\setlength{\rightskip}{0pt plus 5cm}conversion\-::conversion (
+\begin{DoxyParamCaption}
+\item[{string}]{ptxt1, }
+\item[{string}]{ptxt2, }
+\item[{string}]{ptxt3, }
+\item[{string}]{ptxt4}
+\end{DoxyParamCaption}
+)}\label{classconversion_a443552fc13c6b2060d59a9c95ecc5054}
+
+
+Método constructor de la clase conversion, en el cual se inicializan los valores de los atributos de clase, Dir\-\_\-\-Joints, Arreglo\-\_\-angulos, Tamano Mov. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ptx1} & ptxt2 ptxt3 ptxt4 -\/ Strings que recibe el nombre del archivo a leer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Método sin retorno. 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\index{conversion@{conversion}!convertir@{convertir}}
+\index{convertir@{convertir}!conversion@{conversion}}
+\subsubsection[{convertir}]{\setlength{\rightskip}{0pt plus 5cm}double conversion\-::convertir (
+\begin{DoxyParamCaption}
+\item[{string $\ast$}]{linea1, }
+\item[{string $\ast$}]{linea2, }
+\item[{string $\ast$}]{linea3, }
+\item[{string $\ast$}]{linea4, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\label{classconversion_a756754d804f8deeecccf208bf6cf8c62}
+
+
+Método convertir, que realiza la conversión de todas las posiciones X\-Y\-Z a ángulos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strings} & linea1 linea2 linea3 linea4 int n -\/ Cada una de las lineas del archivo de texto y un int que es la cantidad de posiciones tomadas. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double -\/ Método que retorna un double con cada uno de los ángulos formados. 
+\end{DoxyReturn}
+\index{conversion@{conversion}!get\-Arreglo\-Angulos@{get\-Arreglo\-Angulos}}
+\index{get\-Arreglo\-Angulos@{get\-Arreglo\-Angulos}!conversion@{conversion}}
+\subsubsection[{get\-Arreglo\-Angulos}]{\setlength{\rightskip}{0pt plus 5cm}double $\ast$ conversion\-::get\-Arreglo\-Angulos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classconversion_ad6868f7ecae0beaa9913e5d08746f964}
+
+
+Método que retorna el arreglo de ángulos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Método} & sin parámetros. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double $\ast$ \-\_\-\-Arreglo\-\_\-angulos -\/ Arreglo con ángulos. 
+\end{DoxyReturn}
+\index{conversion@{conversion}!llenar\-Arreglo\-Angulos@{llenar\-Arreglo\-Angulos}}
+\index{llenar\-Arreglo\-Angulos@{llenar\-Arreglo\-Angulos}!conversion@{conversion}}
+\subsubsection[{llenar\-Arreglo\-Angulos}]{\setlength{\rightskip}{0pt plus 5cm}void conversion\-::llenar\-Arreglo\-Angulos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classconversion_ad55e7f241b56ba9101881f03d17dd327}
+
+
+Método que llena un arreglo con los ángulos formados por las posiciones. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Método} & sin parámetros. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Método sin retorno. 
+\end{DoxyReturn}
+\index{conversion@{conversion}!split@{split}}
+\index{split@{split}!conversion@{conversion}}
+\subsubsection[{split}]{\setlength{\rightskip}{0pt plus 5cm}string $\ast$ conversion\-::split (
+\begin{DoxyParamCaption}
+\item[{string}]{p\-Dato}
+\end{DoxyParamCaption}
+)}\label{classconversion_a4daeea8f6aaf5664e2e9ab8802c6618e}
+
+
+Método encargado de separar cada una de las posiciones xyz del archivo de texto, separa cada vez que encuenta una coma. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & p\-Dato -\/ String que contiene cada una de las posiciones X\-Y\-Z ej\-: \char`\"{}23.\-9,43.\-9,65.\-3\char`\"{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string $\ast$ Arreglo de String. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/davidpb/\-Desktop/kinect\-Data\-Library/conversion.\-hh\item 
+/home/davidpb/\-Desktop/kinect\-Data\-Library/conversion.\-cpp\end{DoxyCompactItemize}

@@ -184,16 +184,12 @@ en algoritmos de la librería K-Da.
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Metodología}
+\section{Clases}
 
 
-Se realizará la investigación sobre estructuras de datos que se necesiten para la manipulación de objetos tridimensionales. Previamente, se revisarán los algoritmos encontrados, para determinar la necesidad de nuestro proyecto.  Una vez hecho esto, se buscará implementar varias estructuras de datos para poder compararlas entre si a la hora de organizar la información de los arrays provenientes del kinect.\\
+(Aquí va la explicación de los métodos de Sama y David)\\
 
-Lo que se realizará primero, es una investigación sobre que estructuras de datos son utilizadas generalmente para este tipo de proyectos, esto con el fin de entender la utilización de las estructuras de datos en los algoritmos de comparación. Para lograr esto, se leerá toda la bibliografía necesaria para poder entender de la mejor manera que es lo que se necesita exactamente. Una vez entendido algunas de las diferentes implementaciones ya existentes, se procederá a organizar la información proveniente del kinect con las estructuras de datos encontradas 
-y así compararlas una a una.\\
-
-Por lo tanto será necesario también, la utilización de un kinect para obtener datos de diferentes figuras tridimensionales. Finalmente, se buscará determinar la estructura de datos más eficiente para que la librería en c++ creada anteriormente funcione de la manera más eficiente posible.\\
-
+Seguidamente los métodos comparar\_angulos y comparar\_velocidad son los que finalmente evalúan que tan bueno estuvo el movimiento y se lo indica al usuario, esto lo hace utilizando como base los datos suministrados por las clases y métodos anteriores. Primeramente el método comparar\_angulos lo que hace es tomar el arreglo de unos y ceros proveniente de arreglo\_promedio y sumar todos los datos del arreglo, al ser este un arreglo de puros unos y ceros y de longitud 10, el valor de esta suma debería ser máximo 10 y mínimo cero, por lo tanto se puede hacer una evaluación de que tan bien estuvo el movimiento en base al valor de esta suma, si por ejemplo la suma dió uno, esto quiere decir que solo una decima parte del movimiento lo hizo casi igual o muy parecido al movimiento ``ideal'' por lo tanto el restante 90\% del movimiento lo hizo mal en comparación al movimiento ``ideal'', lo que haría que en general el movimiento haya sido muy malo (para este ejemplo). Si por otro lado la sumatoria dió un valor de 5 esto quiere decir que la mitad del movimiento estuvo bien hecho y la otra mitad no, y así sucesivamente hasta llegar a un valor de la sumatoria de 10, lo cuál significaría evidentemente que el movimiento fue excelente. Seguidamente el método comparar\_velocidad lo que hace es determinar que tan rápido el usuario hace el movimiento en comparación con el movimiento ``ideal'', esto ya que de nada serviría tener un 10 en comparar\_angulos si se hizo el movimiento muy lento, ya que efectivamente el movimiento sería igual pero no sería lo correcto decirle al usuario que estuvo bien su movimiento si dura mucho tiempo en ejecutarlo, este método toma la longitud del arreglo de ángulos de los 2 movimientos y los compara, si hay una diferencia de más de un 10\% se lo indica al usuario, diciendole que fue muy lento si se tuvo un 10\% más o que fue muy rápido si se tuvo un 10\% menos. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
