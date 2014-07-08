@@ -118,6 +118,52 @@ En general, las estructuras de datos implementarán las funciones básicas de ac
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Desarrollo}
+
+\subsection{K-Da Library}
+
+Como se mencionó con anterioridad, la creación de librerías de programación corresponden a una funcionalidad en específico. En nuestro caso, la librería
+implementada corresponde a un conjunto de métodos computacionales para llevar a cabo la comparación de movimientos. Para lograr esto, se implementó 
+la librería en lenguaje C++, sin embargo, los datos de los movimientos son tomados de un controlador de juego libre y entretenimiento llamado Kinect; creado por Alex Kipman, desarrollado por Microsoft para la videoconsola Xbox 360.(http://personales.alumno.upv.es/alrafua/asignaturas/SES/Perifericos/Interfaces_humanas/camaras_reconocimiento.html)
+Además se usa también el lenguaje de programación Processing para poder obtener del Kinect los datos que se produzcan. Relacionadas estas tres importantes
+herramientas es que nuestra librería da el funcionamiento esperado. 
+
+\subsection{Funcionamiento de K-Da Library}
+
+Retomando las herramientas que forman parte de la librería, iniciamos este apartado para describir, de una manera general, como se da la comparación de los movimientos.
+
+\subsubsection{Código en C++}
+
+El código de la librería fue desarrollado en el lenguaje C++. Este código presenta tres diferentes clases, una encargada de recibir los datos de movimiento que provienen del Kinect, sin embargo, es importante mencionar que, en nuestro caso, los movimientos captados son únicamente realizados por humanos, es decir, sí se presenta un movimiento de algún objeto no humano el Kinect no tomará los datos de tal movimiento,
+esto ya que está dentro del propio desarrollo del Kinect esta utilizar técnicas de reconocimiento de voz y reconocimiento facial para la identificación automática de los usuarios. (http://malenyabrego.wordpress.com/2011/12/31/mundo-kinect/) Otra de las clases presentes en el código se encarga de convertir los datos (esto último se explicará con mucho más detalle más adelante) que fueron 
+recibidos del Kinect y es aquí donde toma participación la última de las clases que es la encargada de realizar la comparación de los movimientos; cabe decir que para realizar una comparación es necesario contar con mínimo dos movimientos.
+
+\subsubsection{Processing}
+
+El lenguaje de programación Processing es la herramienta que utilizamos para tomar los datos que el Kinect genere según el movimiento y convertir estos datos en archivos \textit{.txt} para luego estos, ser utilizados dentro del código en C++. En el código de Processing se pueden elegir 
+los movimientos de los que se quieren obtener los datos. Es decir, si necesitamos solo los datos de movimiento que genere el Kinect solo en el \textit{joint} de la muñeca y no de todos los \textit{joints} del diagrama en general se puede realizar el cambio dentro del código. En nuestro caso, 
+Processing reproduce los datos del movimiento de los \textit{joints} del torso, cuello, hombro y muñeca. 
+
+
+
+
+\subsection{Objetivos Específicos}
+
+Los objetivos específicos son:\\
+
+\begin{enumerate}
+\item Ampliar las funciones de la librería K-Da, de modo que se puedan hacer una mayor cantidad de comparaciones de movimientos.
+\item Investigar sobre algunas estructuras de datos que puedan mejorar el rendimiento o eficacia de la informacíón utilizada 
+en algoritmos de la librería K-Da.
+\item Implementar algunas de las estructuras de datos en la librería K-Da para determinar cuáles dan mejores resultados.
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% YO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
 \section{Objetivos}
 
 \subsection{Objetivo General}
