@@ -17,15 +17,17 @@ public:
     compara();
     compara(const compara& orig);
     virtual ~compara();
-    double * sacapromedios(double * arreglo);
+    double * sacapromedios(double * arreglo, int pDato);
     int * arreglo_promedio(double *arreglo_prom1, double *arreglo_prom2);
     int * getArregloComparativo();
     void comparar_angulos(int * promedio);
     void comparar_velocidad(int pSizeMov1, int pSizeMov2);
 private:
-     double * _ArregloMov1;
-     double  * _ArregloMov2;
-     int * _ArregloComparativo;
+    double * _ArregloMov1;
+    double * _ArregloMov2;
+    int * _ArregloComparativo;
+    int _CantDatos1;
+    int _CantDatos2;
 };
 
 #endif	/* COMPARA_HH */
