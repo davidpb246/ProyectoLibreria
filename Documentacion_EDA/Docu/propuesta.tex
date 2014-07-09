@@ -92,72 +92,96 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introducción}
 \hyphenation{fun-cio-na-li-dad}
-La creación de librerías en lenguajes de programación ayuda a generar una interfaz bien definida para una cierta funcionalidad en específico, 
-estas sirven para separar por módulos un programa, y así generar un código más claro y ordenado.\\
+\quad \quad La creación de librerías en lenguajes de programación ayuda a generar una interfaz bien definida para una cierta funcionalidad en específico, es decir,
+dan al usuario ciertas ventajas a la hora de programar de una manera sencilla. Estas también sirven para separar por módulos un programa y de esta manera generar un código más claro y ordenado.\\
 
-Una librería es un conjunto de funciones para desarrollar software, por lo general no son programas, pero si son utilizadas por los programas 
-para poder funcionar de forma correcta; el desarrollo de librerías sirve como apoyo para los programadores a tener más facilidades de implementación 
-en sus programas y a contar con más recursos para realizar sus proyectos.\\
+Una librería es un conjunto de funciones utilizadas para desarrollar software, no son programas, pero por lo general si son utilizadas por los programas 
+para poder funcionar de forma correcta; el desarrollo de librerías sirve como apoyo a los programadores para tener más facilidades en la implementación de código
+en sus programas y a contar con más recursos para realizar sus proyectos. Existen muchas librerías para los diferentes lenguajes informáticos que hay.\\
 
-En este caso, queremos implementar una librería sobre manipulación y análisis de objetos tridimensionales
-en el lenguaje C++.\\
-
-La idea  de esta librería es crear métodos o funciones para la manipulación y representación 
-de cualquier objeto real, de manera virtual; esta técnica de pasar de un objeto real a representarlo de manera virtual, se utiliza mucho 
+En este caso, se implementó una librería cuya función es comparar los movimientos entre dos personas. Nuestra librería esta programada
+en el lenguaje C++. La idea de esta librería fue crear métodos o funciones en código, e implementar diferentes herramientas como el Kinect y el lenguaje informático Processing para
+lograr la función principal: comparar los movimientos de dos personas, esto, de manera virtual; esta técnica de comparación de movimientos humanos se utiliza mucho 
 en videojuegos, efectos especiales, medicina, simuladores, entre otros.\\
 
-Para nuestro caso utilizaremos para representar los objetos de manera virtual, la técnica de malla de triángulos en 3D, en dónde primero debemos 
-representar por medio de una nube de puntos el objeto y luego formar los triangulos con cada uno de esos puntos; para ello utilizaremos el kinect, 
-obteniendo así los datos y luego realizar los algoritmos necesarios para la ejecución de las funciones de comparación de datos, generando así la librería.\\
+Para continuar con el desarrollo del proyecto, se desarrollaron los siguientes objetivos: la implementación de algunas estructuras de datos, esto, en la manipulación de información obtenida mediante el Kinect de manera que se quiere realizar un análisis implementando algunas de ellas, para así determinar y comparar, qué estructuras son las más eficientes a la hora de manipular esta información.\\
 
-
-Una segunda parte del proyecto, consiste en la implementación de algunas estructuras de datos para la manipulación de información obtenida mediante el kinect, de manera que se quiere realizar un análisis implementando algunas de ellas, para así determinar y comparar, qué estructuras son las más eficientes a la hora de manipular esta información.\\
-
-En general, las estructuras de datos implementarán las funciones básicas de acceso o búsqueda de datos, lo cual nos ayudará a tener un manejo más rápido y ordenado de los datos obtenidos por el kinect.
-
-ESTA INTRO HAY QUE CAMBIARLAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!
+En general, las estructuras de datos implementarán las funciones básicas de acceso o búsqueda de datos, lo cual nos ayudará a tener un manejo más rápido y ordenado de los datos obtenidos por el Kinect.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Desarrollo}
 
 \subsection{K-Da Library}
 
-Como se mencionó con anterioridad, la creación de librerías de programación corresponden a una funcionalidad en específico. En nuestro caso, la librería
+\quad \quad Como se mencionó con anterioridad, la creación de librerías de programación corresponden a una funcionalidad en específico. En nuestro caso, la librería
 implementada corresponde a un conjunto de métodos computacionales para llevar a cabo la comparación de movimientos. Para lograr esto, se implementó 
-la librería en lenguaje C++, sin embargo, los datos de los movimientos son tomados de un controlador de juego libre y entretenimiento llamado Kinect; creado por Alex Kipman, desarrollado por Microsoft para la videoconsola Xbox 360.(http://personales.alumno.upv.es/alrafua/asignaturas/SES/Perifericos/Interfaces\_humanas/camaras\_reconocimiento.html)
-Además se usa también el lenguaje de programación Processing para poder obtener del Kinect los datos que se produzcan. Relacionadas estas tres importantes
+la librería en lenguaje C++, sin embargo, los datos de los movimientos son tomados de un controlador de juego libre y entretenimiento llamado Kinect; creado por Alex Kipman, desarrollado por Microsoft para la videoconsola Xbox 360 (http://personales.alumno.upv.es/alrafua/asignaturas/SES/Perifericos/Interfaces\_humanas/camaras\_reconocimiento.html)
+y OpenNI, que es el software utilizado para reproducir una interfaz en las computadoras, de las imágenes que recibe el Kinect de donde toma los datos. De este software se hablará detallamente más adelante. 
+Además se usa también el lenguaje de programación Processing para poder obtener del Kinect los datos que se produzcan. Relacionadas estas cuatro importantes
 herramientas es que nuestra librería da el funcionamiento esperado. 
 
 \subsection{Funcionamiento de K-Da Library}
 
-Retomando las herramientas que forman parte de la librería, iniciamos este apartado para describir, de una manera general, como se da la comparación de los movimientos.
+\quad \quad Retomando las herramientas que forman parte de la librería, iniciamos este apartado para describir, de una manera general, como se da la comparación de los movimientos.
 
 \subsubsection{Código en C++}
 
-El código de la librería fue desarrollado en el lenguaje C++. Este código presenta tres diferentes clases, una encargada de recibir los datos de movimiento que provienen del Kinect, sin embargo, es importante mencionar que, en nuestro caso, los movimientos captados son únicamente realizados por humanos, es decir, sí se presenta un movimiento de algún objeto no humano el Kinect no tomará los datos de tal movimiento,
+\quad \quad El código de la librería fue desarrollado en el lenguaje C++. Este código presenta tres diferentes clases, una encargada de recibir los datos de movimiento que provienen del Kinect, sin embargo, es importante mencionar que, en nuestro caso, los movimientos captados son únicamente realizados por humanos, es decir, sí se presenta un movimiento de algún objeto no humano el Kinect no tomará los datos de tal movimiento,
 esto ya que está dentro del propio desarrollo del Kinect esta utilizar técnicas de reconocimiento de voz y reconocimiento facial para la identificación automática de los usuarios. (http://malenyabrego.wordpress.com/2011/12/31/mundo-kinect/) Otra de las clases presentes en el código se encarga de convertir los datos (esto último se explicará con mucho más detalle más adelante) que fueron 
 recibidos del Kinect y es aquí donde toma participación la última de las clases que es la encargada de realizar la comparación de los movimientos; cabe decir que para realizar una comparación es necesario contar con mínimo dos movimientos.
 
 \subsubsection{Processing}
 
-El lenguaje de programación Processing es la herramienta que utilizamos para tomar los datos que el Kinect genere según el movimiento y convertir estos datos en archivos \textit{.txt} para luego estos, ser utilizados dentro del código en C++. En el código de Processing se pueden elegir 
+\quad \quad El lenguaje de programación Processing es la herramienta que utilizamos para tomar los datos que el Kinect genere según el movimiento y convertir estos datos en archivos \textit{.txt} para luego estos, ser utilizados dentro del código en C++. En el código de Processing se pueden elegir 
 los movimientos de los que se quieren obtener los datos. Es decir, si necesitamos solo los datos de movimiento que genere el Kinect solo en el \textit{joint} de la muñeca y no de todos los \textit{joints} del diagrama del cuerpo humano en general se puede realizar el cambio dentro del código. En nuestro caso, 
 Processing reproduce los datos del movimiento de los \textit{joints} del torso, cuello, hombro y muñeca. 
 
 \subsubsection{Kinect}
 
-Este dispositivo cuenta con una cámara RGB, un sensor de profundidad, un micrófono de múltiples matrices y un procesador personalizado que ejecuta el software patentado, que proporciona captura de movimiento de todo el cuerpo en 3D, reconocimiento facial y capacidades de reconocimiento de voz. 
+\quad \quad Este dispositivo cuenta con una cámara RGB, un sensor de profundidad, un micrófono de múltiples matrices y un procesador personalizado que ejecuta el software patentado, que proporciona captura de movimiento de todo el cuerpo en 3D, reconocimiento facial y capacidades de reconocimiento de voz. 
 Son las características anteriores lo que permite que esta última, pero no menos importante, herramienta es la que recolecta los datos del movimiento que se realicen. Utilizando algunos de sus componentes mencionados anteriormente, el Kinect es capaz de grabar los movimientos que realice un humano
 frente a él. Los datos que este produce corresponden a puntos de los \textit{joints} en tres dimensiones, largo, ancho y profundidad, o más en general, posiciones en \textit{x}, \textit{y} y \textit{z} de un plano que el mismo Kinect establece. Así bien, durante el movimiento ya sea en el \textit{joint} de la muñeca, hombro o algún otro (según esté especificado en el código Processing), 
 el Kinect generará un dato de tres dimensiones para tal \textit{joint} en un tiempo específico, de manera que conforme el movimiento continúa se generan más datos 3D, con diferente posición, y obviamente, en un tiempo diferente. 
 
+\subsubsection{OpenNI}
 
+\quad \quad Como bien se dijo antes, el Kinect es el encargado de recolectar los datos de las posiciones durante el movimiento que se presente. Sin embargo, el encargado de generar una interfaz para poder presenciar las imágenes que 
+el Kinect recibe por cada uno de los movimientos es el OpenNI. Este software fue ... (MAE DAVID, AQUÍ ESTARÍA BONITO UNA HABLADITA AHÍ DE OPENNI). 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Clases}
+\quad \quad En este apartado se pretende dar una explicación más detallada de las funciones dentro del código, y de esta manera apreciar mejor el desarrollo del mismo, así, notar como se da la comparación a partir de los datos 
+obtenidos del Kinect. 
 
+\subsubsection{Class archivos}
+
+\quad \quad Una de las primeras clases que la librería posee es la clase \textit{archivos}. Esta clase es la encargada de recibir los datos de los archivos \textit{.txt}, y preparar estos datos para las siguientes funciones.
+Ahora bien, se sabe que los archivos \textit{.txt} generados por Processing corresponden a una cantidad \textit{n} de datos de posición (\textit{x}, \textit{y}, \textit{z}), es por esto que, para el desarrollo de nuestra
+librería es necesario conocer la cantidad de datos que se obtuvieron por cada movimiento a comparar porque posteriormente será utilizado en otras funciones; de modo que en la clase \textit{archivos} se tiene un método \textit{getCantLineas();} 
+cuya función es leer y guardar en una variable la cantidad de datos o líneas (ya que cada línea del archivo \textit{.txt} corresponde a un dato) que se encuentren por cada movimiento. 
+Una vez leídos la cantidad de datos del archivo \textit{.txt}, se corre la función \textit{guardarEnArreglo();}. Esta función es la encargada de tomar los datos del archivo generado por Processing y guardar estos datos en arreglo que forman parte de la librería
+para más adelante poder operar sobre ellos. Es por lo anterior, que se denota esta clase como la encargada de preparar los datos.
+
+\subsubsection{Class conversion}
+
+\quad \quad La siguiente clase que opera en nuestra librería corresponde a la clase \textit{conversion}. Esta, como bien dice su nombre, se encarga de convertir los datos que provienen de la clase \textit{archivos}, es decir, esta clase se desarrolla a lo largo
+de los arreglos que poseen los datos, que han sido implementados en la primer clase. Para conseguir una librería funcional, es necesario, en cierta manera, generalizar el proceso de la misma. Para entender mejor esta idea, detengámonos a pensar en las siguientes situaciones:
+se pretende comparar el movimiento que realiza una persona de gran tamaño contra el movimiento de otra persona de mucho menor tamaño, así bien, si nos regimos por la comparación de las posiciones de cada uno de las personas en tiempos relativamente parecidos, sucedería que por más acertado
+que sean los movimientos, la librería respondería que se han dado movimientos diferentes, esto, porque, a pesar de que los movimientos sean igualmente bien ejecutados hay una diferencia de posiciones en (\textit{x}, \textit{y}, \textit{z}) entre los \textit{joints} de las personas debido a su diferencia de tamaños.
+Otras situaciones como la anterior pueden suceder con otras cualidades similares, el tamaño de sus brazos, pies, torso, contextura del cuerpo en general. Esto por lo anterior, que se menciona que la librería se implementó de una manera más generalizada y es bajo la utilización de ángulos como datos. Debido a esta lógica,
+el desarrollo de la librería puede funcionar para la comparación de movimientos de personas sin importar sus diferencias físicas ya que los ángulos que se generan trás cada \textit{frame} del movimiento no dependen cualidades físicas.\\
+
+Es la función \textit{convertir(string* pjoint1, string* pjoint2, string* pjoint3, string* pjoint4, int n);} dentro de la clase \textit{conversion} la que se encarga de convertir los datos de posición (\textit{x}, \textit{y}, \textit{z}) en ángulos. Usando la librería \textit{Eigen} y álgebra lineal, realizamos operaciones dentro
+de este método para conocer el ángulo que se va generando. Conociendo las posiciones de los \textit{joints} de la muñeca/hombro y torso/cuello, se puede encontrar su vector, como su magnitud entros esos \textit{joints} de modo que, conociendo la fórmula del producto punto, es posible despejar el ángulo entre ambos vectores.
+De lo anterior, es que se encarga la función \textit{convertir();}. Otra de las funciones de esta clase corresponde al método \textit{llenarArregloAngulos();} que es la encargada de, una vez generados los ángulos, meterlos en un arreglo que luego será operado en otras funciones. 
+
+
+
+
+
+Uno de los métodos en esta clase corresponde a la función 
 
 (Aquí va la explicación de los métodos de Sama y David)\\
 
