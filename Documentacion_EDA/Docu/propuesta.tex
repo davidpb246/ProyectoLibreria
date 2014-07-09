@@ -200,16 +200,20 @@ lo que hace es determinar que tan rápido el usuario hace el movimiento en compa
 
 \subsection{Complejidad del algoritmo de comparación}
 
-\quad \quad Para determinar la complejidad de del algoritmo de comparación se analizaron cada una de las secciones del código. 
-Primeramente, recordemos que el encargado de generar los datos es el Kinect, por lo que el código entra en participación una vez ingresadas las listas de datos.
-Así, una vez tomados los archivos \textit{.txt} se procede a trasladar estos \textit{n} datos en un arreglo dentro del código. Al ser una comparación realizada entre dos movimientos, 
-es necesario dos listas, por tanto el sumando de esta primera parte corresponde a \textit{2n} para la complejidad del algoritmo. Una vez conseguidos los dos arreglos, estos entran 
-en una función que se encarga de generar vectores directores de los movimientos que utilizamos. Para conseguir estos vectores, hacemos las restas de posiciones debidas, de modo que al ser, 3 diferentes dimensiones, deben restarse 4 listas diferentes de \textit{n} datos (cuello con torso y muñeca con hombro)
-y así se obtiene \textit{6n} ejecuciones de funciones por cada movimiento, al ser dos, el sumando de esta sección corresponde a \textit{12n}. De modo que finalizada esta función cada movimiento fue reducido en dos arreglos.
-La siguiente función se encarga de tomar ambos arreglos, realizar operaciones algebraícas y convertir los arreglos en uno solo conformado de ángulos. En el desarrollo de la función se producen cuatro diferentes pasos por cada dos arreglos de un movimiento, producto punto, magnitud de un arreglo, magnitud del otro, e inversa del coseno, esto en \textit{n} datos, por lo tanto
-se da un sumado a la complejidad que corresponde a \textit{4n} por cada movimiento, \textit{8n} por ambos.
-Conseguidos los arreglos de ángulos se realizan las funciones de sacar los arreglos promedios de ambos arreglos de angulos, al ser estos dos, y un constante de 20 ejecuciones del programa para generar ambos arreglos de promedios, se dan en total 40 funciones.
-Finalmente con otras 10 líneas de código en ejecución se obtiene el arreglo de unos y ceros que se utiliza para hablar de la comparación del movimiento. De modo que al final, la complejidad del algoritmo de comparación corresponde a O(n), su sumando es de\textit{20n+50}.
+\quad \quad Para determinar la complejidad del algoritmo de comparación total, es decir, toda la librería, es necesario dar un análisis de todas y cada una de las funciones que ocurren en este. Al ser tantas, hemos decidido
+dar algunos ánalisis en ciertas partes importantes del código y suficientes para encontrar el orden de complejidad del mismo. 
+Como primer punto, tenemos la clase \textit{archivos} cuya función general corresponde a introducir dentro del código los datos emulados por el Kinect. Esto sucede de la siguiente manera: primero se crea el arreglo $A[n]$, sumando de 1, luego
+inicia un \textit{for} en $i=0$ hasta \textit{n}, el número de datos, $i++$, sumando de 1 + \textit{n}. Finalmente dentro del \textit{for} sucede que cada línea $i$ es igual a la posición $A[i]$, sumando de 3n. Lo que da un total de 4n + 2, que indica que su orden de complejidad
+en este algoritmo es de O(n).\\
+
+Otro de las secciones por analizar es la encargada de generar el arreglo de unos y ceros. En esta método sucede lo siguiente: primero se crea el arreglo
+de 10 posiciones, 1. Luego inicia un \textit{for} para esas 10 posiciones, 1 + 10. Dentro del \textit{for} se inicia una variable y otro nuevo \textit{for}
+de otras 10 posiciones, pero como ya están dentro de un \textit{for} el sumado es 10 + 10 + 100. En este segundo \textit{for} se produce la suma de los promedios, 100 + 100. Finalizado el segundo \textit{for} se almacena
+el dato obtenido en el arreglo de los promedios del primer \textit{for} en sus diez diferentes posiciones, 10 + 10. Y finalizado este primer \textit{for}, se retorna el arreglo, 1. Esto, para dar con una constante 353.\\
+
+Para comparar ambos arreglos de promedios, la función crea un nuevo arreglo, y comparando posiciones, utilizando \textit{if} y \textit{else}, llegando en final a una constante de 53 en un peor caso. Como se aprecia
+a lo largo del código, y posterior al método en la clase \textit{archivos}, se presentan órdenes de complejidad constantes, por lo que se puede
+mencionar que, en general, el algoritmo de comparación corresponde a un orden de complejidad de O(n).
 
 
 \section{Referencias}
