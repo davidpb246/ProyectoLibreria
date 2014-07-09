@@ -1,0 +1,4 @@
+lista enlazada ---> O(n) para buscar o borrar un elemento, O(1) si se va a insetar un elemento
+lista doblemente enlazada ---> O(n) para buscar o borrar un elemento, O(1) si se va a insetar un elemento
+Pila ---> almacenar una pila es O(n)
+Cola ---> cada iteración es obviamente O(1) pero como estamos metiendo "n" datos de un solo, yo diría que es O(n)
