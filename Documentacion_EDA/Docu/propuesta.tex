@@ -208,11 +208,11 @@ en este algoritmo es de O(n).\\
 
 Otro de las secciones por analizar es la encargada de generar el arreglo de unos y ceros. En esta método sucede lo siguiente: primero se crea el arreglo
 de 10 posiciones, 1. Luego inicia un \textit{for} para esas 10 posiciones, 1 + 10. Dentro del \textit{for} se inicia una variable y otro nuevo \textit{for}
-de otras 10 posiciones, pero como ya están dentro de un \textit{for} el sumado es 10 + 10 + 100. En este segundo \textit{for} se produce la suma de los promedios, 100 + 100. Finalizado el segundo \textit{for} se almacena
-el dato obtenido en el arreglo de los promedios del primer \textit{for} en sus diez diferentes posiciones, 10 + 10. Y finalizado este primer \textit{for}, se retorna el arreglo, 1. Esto, para dar con una constante 353.\\
+de otras 10 posiciones, pero como ya están dentro de un \textit{for} el sumado es 10 + 10 + n. En este segundo \textit{for} se produce la suma de los promedios, n + n. Finalizado el segundo \textit{for} se almacena
+el dato obtenido en el arreglo de los promedios del primer \textit{for} en sus diez diferentes posiciones, 10 + 10. Y finalizado este primer \textit{for}, se retorna el arreglo, 1. Esto, para dar con una constante 3n + 53.\\
 
 Para comparar ambos arreglos de promedios, la función crea un nuevo arreglo, y comparando posiciones, utilizando \textit{if} y \textit{else}, llegando en final a una constante de 53 en un peor caso. Como se aprecia
-a lo largo del código, y posterior al método en la clase \textit{archivos}, se presentan órdenes de complejidad constantes, por lo que se puede
+a lo largo del código, y posterior al método en la clase \textit{archivos}, se presentan órdenes de complejidad constantes o con mayor orden de 3n, por lo que se puede
 mencionar que, en general, el algoritmo de comparación corresponde a un orden de complejidad de O(n).
 
 
