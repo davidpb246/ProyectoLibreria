@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  8 JUL 2014 22:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  8 JUL 2014 23:42
 entering extended mode
  %&-line parsing enabled.
 **presentation_c++.tex
@@ -706,6 +706,15 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 
 LaTeX Warning: Label `fig:verticalcell' multiply defined.
 
+
+LaTeX Warning: Label `fig:verticalcell' multiply defined.
+
+
+LaTeX Warning: Label `fig:verticalcell' multiply defined.
+
+
+LaTeX Warning: Label `fig:verticalcell' multiply defined.
+
 )
 \openout1 = `presentation_c++.aux'.
 
@@ -919,25 +928,45 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 [3
 
-] <openni.jpg, id=99, 663.98062pt x 244.66406pt>
-File: openni.jpg Graphic file (type jpg)
- <use openni.jpg> [4
+] <Stack.jpg, id=99, 201.75375pt x 138.5175pt>
+File: Stack.jpg Graphic file (type jpg)
+ <use Stack.jpg>pdfTeX warning (ext4): destination with the same identifier (na
+me{fig:verticalcell}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 \end{frame}
+                  <list.png, id=100, 1606.0pt x 637.38126pt>
+File: list.png Graphic file (type png)
+ <use list.png>pdfTeX warning (ext4): destination with the same identifier (nam
+e{fig:verticalcell}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 \end{frame}
+                  <queue.jpg, id=101, 289.08pt x 153.57375pt>
+File: queue.jpg Graphic file (type jpg)
+ <use queue.jpg>pdfTeX warning (ext4): destination with the same identifier (na
+me{fig:verticalcell}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 \end{frame}
+                  [4
 
- <./openni.jpg>] [5
+ <./Stack.jpg> <./list.png> <./queue.jpg>] [5
 
 ] [6
 
-] <punto.JPG, id=175, 180.675pt x 186.6975pt>
+]
+<punto.JPG, id=179, 180.675pt x 186.6975pt>
 File: punto.JPG Graphic file (type jpg)
  <use punto.JPG>
-<conversion.png, id=176, 366.61969pt x 361.35pt>
+<conversion.png, id=180, 366.61969pt x 361.35pt>
 File: conversion.png Graphic file (type png)
  <use conversion.png>
-Overfull \hbox (4.55153pt too wide) detected at line 215
+Overfull \hbox (4.55153pt too wide) detected at line 249
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
-<prod_punto.png, id=177, 512.91624pt x 74.2775pt>
+<prod_punto.png, id=181, 512.91624pt x 74.2775pt>
 File: prod_punto.png Graphic file (type png)
  <use prod_punto.png> [7
 
@@ -948,14 +977,14 @@ File: prod_punto.png Graphic file (type png)
 ] [10
 
 ]
-<comp1.png, id=284, 531.9875pt x 405.515pt>
+<comp1.png, id=287, 531.9875pt x 405.515pt>
 File: comp1.png Graphic file (type png)
  <use comp1.png>
 File: comp2.png Graphic file (type png)
  <use comp2.png>
 [11
 
- <./comp1.png (PNG copy)>] <frames.jpg, id=310, 563.33539pt x 475.70126pt>
+ <./comp1.png (PNG copy)>] <frames.jpg, id=313, 563.33539pt x 475.70126pt>
 File: frames.jpg Graphic file (type jpg)
 
 <use frames.jpg> [12
@@ -985,10 +1014,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15057 strings out of 495061
- 279218 string characters out of 1182621
- 363009 words of memory out of 3000000
- 17789 multiletter control sequences out of 15000+50000
+ 15067 strings out of 495061
+ 279349 string characters out of 1182621
+ 362009 words of memory out of 3000000
+ 17798 multiletter control sequences out of 15000+50000
  10857 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,15n,53p,405b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -998,9 +1027,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb>
-Output written on presentation_c++.pdf (13 pages, 1154538 bytes).
+Output written on presentation_c++.pdf (13 pages, 1253139 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
+ 390 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
