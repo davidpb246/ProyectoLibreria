@@ -138,22 +138,7 @@ University of Costa Rica \\ % Your institution for the title page
 
 \end{columns}
 \end{frame}
-
-
-\begin{frame}
-
-Class conversion
- 
-\begin{itemize}
-\item convertir(string pjoint1, string pjoint2, int n);
-\item llenarArregloAngulos();
-\item getArregloAngulos();
-\end{itemize}
-
-
-
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 
@@ -182,18 +167,6 @@ Class conversion
 
 
 %----------------------------------------------------------------------------------------
-
-\begin{frame}
-
-Class compara
- 
-\begin{itemize}
-\item sacapromedios(double arreglo);
-\item arreglo\_promedio(double arreglo\_prom1, double arreglo\_prom2);
-
-\end{itemize}
-
-\end{frame}
 
 %----------------------------------------------------------------------------------------
 
@@ -230,43 +203,18 @@ $\left[1,0,0,1,0,1,1,0,1,1\right.]$
 %----------------------------------------------------------------------------------------
 
 
+%----------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-
-Class compara
- 
+\frametitle{Problems of the previous presentation}
 \begin{itemize}
-
-\item comparar\_angulos(int promedio);
-\item comparar\_velocidad(int pSizeMov1, int pSizeMov2);
+\item Kinect-data\\~\\
+\item Speed analysis
 \end{itemize}
 
 \end{frame}
 
-%----------------------------------------------------------------------------------------
-
-\begin{frame}
-
-
-\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-
-\column{.5\textwidth}
- % Left column and width
-\begin{figure}
-\includegraphics[width=0.9\linewidth]{comp1.png}
-\end{figure}
-
-\column{.5\textwidth} % Right column and width
-
-\begin{figure}
-\includegraphics[width=0.9\linewidth]{comp2.png}
-\end{figure}
-
-\end{columns}
-
-
-
-\end{frame}
-%----------------------------------------------------------------------------------------
 
 \begin{frame}
 
@@ -279,15 +227,7 @@ Class compara
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-\frametitle{Problems of the previous presentation}
-\begin{itemize}
-\item Kinect-data\\~\\
-\item Speed analysis
-\end{itemize}
 
-\end{frame}
 %%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
@@ -324,7 +264,6 @@ Class compara
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \frametitle{Complexity Analysis}
@@ -346,69 +285,41 @@ Queue & O(1) & O(n)\\
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------------------------------------------------------------------------- 
+\begin{frame} 
+\frametitle{Time Analysis} 
+\begin{center} 
+\begin{tabular}{l l @{\hspace{0.8cm}}p{1cm}}
+\cline{2-2} 
+\toprule 
+\textbf{Data Estructure} & \textbf{Runtime(seconds)} \\ 
+\midrule
+Stack & 4\\ Double linked list & 38\\ Queue & 3\\ 
+\bottomrule 
+\end{tabular} 
+\end{center} 
+\end{frame} %--------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-\begin{frame}
-\frametitle{Complexity analysis in our comparison algorithm}
-
-
-
-\begin{columns}[c] 
-
-\column{.5\textwidth}
-
-A=[1,2,....,n]\\~\\
-for (i=1; $i<=n;$ i++){\\~\\
-linea i = A[i];}\\~\\
-
-\column{.5\textwidth} % Right column and width
-
-1 \\~\\
-1 + n \\~\\
-3n \\~\\
-4n + 2 \\~\\
-\end{columns}
-
-
-
-
-
-%----------------------------------------------------------------------------------------
-\end{frame}
 
 \begin{frame}
+
+
 \frametitle{Complexity analysis in our comparison algorithm}
 
 \begin{figure}
-
-\includegraphics[totalheight=2.4cm]{1.png}
-
+\includegraphics[totalheight=2cm]{1.png}
 \end{figure}
 
-3n + 53
+
+Orden de Complejidad es de O($n^{2}$)
 
 
-%----------------------------------------------------------------------------------------
 \end{frame}
 
-\begin{frame}
-\frametitle{Complexity analysis in our comparison algorithm}
-
-\begin{figure}
-
-\includegraphics[totalheight=3cm]{2.png}
-
-\end{figure}
-
-53
-
-Total 3n + 106
-
-Orden de Complejidad es de O(n)
-
-%----------------------------------------------------------------------------------------
-\end{frame}
 
 
 
 \end{document} 
+
+
+

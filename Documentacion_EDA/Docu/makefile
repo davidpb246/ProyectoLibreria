@@ -1,7 +1,7 @@
-OBJS = propuesta.tex
+OBJS = docu.tex
 CC = pdflatex
-TARGET = propuesta
+TARGET = docu
 $(TARGET) : $(OBJS)
 	$(CC) $(OBJS)
 clean:
-	rm -f propuesta.log *.aux *.pdf $(TARGET)
+	rm -f docu.log *.aux *.pdf $(TARGET)

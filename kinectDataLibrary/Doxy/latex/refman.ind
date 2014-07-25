@@ -1,0 +1,66 @@
+\begin{theindex}
+
+  \item {archivos}, 5
+    \subitem {get\-Cant\-Lineas}, 5
+    \subitem {get\-Datos\-Arreglo}, 5
+    \subitem {get\-Dir\-Archivo}, 6
+    \subitem {guardar\-En\-Arreglo}, 6
+    \subitem {set\-Cant\-Lineas}, 6
+    \subitem {set\-Dir\-Archivo}, 6
+  \item {arreglo\-\_\-promedio}
+    \subitem {compara}, 7
+
+  \indexspace
+
+  \item {compara}, 7
+    \subitem {arreglo\-\_\-promedio}, 7
+    \subitem {compara}, 7
+    \subitem {comparar\-\_\-angulos}, 8
+    \subitem {comparar\-\_\-velocidad}, 8
+    \subitem {get\-Arreglo\-Comparativo}, 8
+    \subitem {sacapromedios}, 8
+  \item {comparar\-\_\-angulos}
+    \subitem {compara}, 8
+  \item {comparar\-\_\-velocidad}
+    \subitem {compara}, 8
+  \item {conversion}, 9
+    \subitem {conversion}, 9
+    \subitem {convertir}, 10
+    \subitem {get\-Arreglo\-Angulos}, 11
+    \subitem {llenar\-Arreglo\-Angulos}, 11
+    \subitem {split}, 11
+  \item {convertir}
+    \subitem {conversion}, 10
+
+  \indexspace
+
+  \item {get\-Arreglo\-Angulos}
+    \subitem {conversion}, 11
+  \item {get\-Arreglo\-Comparativo}
+    \subitem {compara}, 8
+  \item {get\-Cant\-Lineas}
+    \subitem {archivos}, 5
+  \item {get\-Datos\-Arreglo}
+    \subitem {archivos}, 5
+  \item {get\-Dir\-Archivo}
+    \subitem {archivos}, 6
+  \item {guardar\-En\-Arreglo}
+    \subitem {archivos}, 6
+
+  \indexspace
+
+  \item {llenar\-Arreglo\-Angulos}
+    \subitem {conversion}, 11
+
+  \indexspace
+
+  \item {sacapromedios}
+    \subitem {compara}, 8
+  \item {set\-Cant\-Lineas}
+    \subitem {archivos}, 6
+  \item {set\-Dir\-Archivo}
+    \subitem {archivos}, 6
+  \item {split}
+    \subitem {conversion}, 11
+
+\end{theindex}

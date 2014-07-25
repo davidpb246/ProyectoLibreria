@@ -4,6 +4,8 @@
  * 
  * Created on June 2, 2014, 12:04 AM
  */
+ 
+
 
 #include "compara.hh"
 
@@ -16,12 +18,15 @@ compara::compara() {
     conversion persona1("panza", "cuello", "muneca", "hombro");
     conversion persona2("panza1", "cuello1", "muneca1", "hombro1");
     this->_ArregloMov1 = persona1.getArregloAngulos();
-    for (int i = 0; i < 10; i++) {
+    int can1 = persona1._TamanoMov1;
+    int can2 = persona2._TamanoMov2;
+	cout << "Arreglo angulos persona 1" << endl;
+    for (int i = 0; i < can1; i++) {
         cout << _ArregloMov1[i] << endl;
     }
     this->_ArregloMov2 = persona2.getArregloAngulos();
-    cout << "hola" << endl;
-    for (int i = 0; i < 16; i++) {
+    cout << "Arreglo angulos persona 2" << endl;
+    for (int i = 0; i < can2; i++) {
         cout << _ArregloMov2[i] << endl;
     }
     this->_CantDatos1 = persona1._TamanoMov1;
@@ -46,15 +51,15 @@ compara::~compara() {
   @returns double * - Arreglo con cada uno de los bloques de la información.
  */
 double * compara::sacapromedios(double* arreglo, int pDato) {
-    double * arreglo_prom = new double [10]; //revisar
-    for (int k = 0; k < 10; k++) {
-        int sumatoria = 0;
-        for (int i = int(k * pDato * 0.1); i < int(pDato * 0.1 * (1 + k)); i++) { //cambiar 10 por n
-            sumatoria = sumatoria + arreglo[i];
+    double * arreglo_prom = new double [10]; //1
+    for (int k = 0; k < 10; k++) { //1 + 10
+        int sumatoria = 0; //10
+        for (int i = int(k * pDato * 0.1); i < int(pDato * 0.1 * (1 + k)); i++) { //10 + n*(0.1*10)
+            sumatoria = sumatoria + arreglo[i]; //n+n
         }
-        arreglo_prom[k] = double(sumatoria) / double(int(pDato * 0.1)); // cambiar 10 por n
+        arreglo_prom[k] = double(sumatoria) / double(int(pDato * 0.1)); //10 + 10
     }
-    return arreglo_prom;
+    return arreglo_prom; //1 
 }
 
 /**
@@ -64,19 +69,27 @@ double * compara::sacapromedios(double* arreglo, int pDato) {
   @returns int* - Arreglo de 1 y 0 que representan la calidad del movimiento.
  */
 int * compara::arreglo_promedio(double *arreglo_prom1, double *arreglo_prom2) {
-    int * selecciona = new int [10];
+	cout << "hola" << endl;
+	for (int i = 0; i < 10; i++) {
+        cout << arreglo_prom1[i] << endl;
+    }
+    cout << "hola" << endl;
     for (int i = 0; i < 10; i++) {
-        if (arreglo_prom1[i] > arreglo_prom2[i] + 5.0) {
-            selecciona[i] = 0;
-        } else if (arreglo_prom1[i] < arreglo_prom2[i] - 5.0) {
-            selecciona[i] = 0;
-        } else {
-            selecciona[i] = 1;
+        cout << arreglo_prom2[i] << endl;
+    }
+    int * selecciona = new int [10];		// 1
+    for (int i = 0; i < 10; i++) {			//	1	+	10
+        if (arreglo_prom1[i] > arreglo_prom2[i] + 5.0) {		//	1
+            selecciona[i] = 0;		//	0
+        } else if (arreglo_prom1[i] < arreglo_prom2[i] - 5.0) {	//	1
+            selecciona[i] = 0;	//	0
+        } else {	//		1
+            selecciona[i] = 1;	//	1
         }
     }
-    for (int j = 0; j < 10; j++) {
+    for (int j = 0; j < 10; j++) {	//	1	+	10
     }
-    return selecciona;
+    return selecciona; 		//	1
 }
 
 /**
